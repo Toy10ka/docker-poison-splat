@@ -1,6 +1,6 @@
 # docker-poison-splat
 
-Poison-Splat（3D Gaussian Splatting への計算量攻撃実装）を **Conda なし／Docker 管理**で再現するためのリポジトリです。  
+Poison-Splat（3D Gaussian Splatting への計算量攻撃実装）を **Conda なし／Docker 管理**で再現するためのリポジトリ。
 - 元リポジトリ: https://github.com/jiahaolu97/poison-splat
 - 動機: 元手順（Conda + pip）だと CUDA / PyTorch / CUDA拡張の組合せで互換性エラーが出やすいため、**Docker でバージョンを固定**して再現性を上げる。
 
